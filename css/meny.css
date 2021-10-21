@@ -1,0 +1,64 @@
+*
+{
+  margin: 0;
+}
+body
+{
+  display: flex;
+  justify-content: center;
+}
+.meny
+{
+  height: 50px;
+  width: 900px;
+  border-style:solid;
+  border-width: 1px;
+  box-shadow: 2px 7px 15px #434343;
+}
+nav
+{
+  display:grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+  width:900px;
+}
+h1
+{
+  display: flex;
+  color: #60E887;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding:5px;
+}
+a
+{
+  color: #60E887;
+  font-family: Arial, verdana;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width:75px;
+  text-decoration: none;
+}
+.ommig:hover
+{
+
+  background-color: black;
+  color: white;
+}
+.projekt:hover
+{
+  background-color: black;
+  color: white;
+}
+.kontakt:hover
+{
+  background-color: black;
+  color: white;
+}
+.ovrigt:hover
+{
+  background-color: black;
+  color: white;
+}
